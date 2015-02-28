@@ -1,0 +1,13 @@
+﻿Build started 01/02/2015 20:01:26.
+     1>Project "C:\Users\blogs_000\Documents\Visual Studio 2012\Projects\cube\cube\cube.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Fragment.frag vertex.vs
+         Fragment.frag
+     1>Fragment.frag(1): fatal error C1021: invalid preprocessor command 'version'
+         vertex.vs
+     1>vertex.vs(1): fatal error C1021: invalid preprocessor command 'version'
+     1>Done Building Project "C:\Users\blogs_000\Documents\Visual Studio 2012\Projects\cube\cube\cube.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.43
