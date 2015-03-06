@@ -118,17 +118,195 @@ int main()
         -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
     };
     glm::vec3 cubePositions[] = {
-        glm::vec3(0.0f, 1.0f, 0.0f), 
-        glm::vec3(0.0f, 2.0f, 0.0f), 
-        glm::vec3(0.0f, 3.0f, 0.0f),  
-        glm::vec3(0.0f, 4.0f, 0.0f),  
-        glm::vec3(0.0f, 5.0f, 0.0f),  
-        glm::vec3(0.0f, 0.0f, 0.0f),  
-        glm::vec3(0.0f, -1.0f, 0.0f),  
-        glm::vec3(0.0f, -2.0f, 0.0f), 
-        glm::vec3(0.0f, -3.0f, 0.0f), 
-        glm::vec3(0.0f, -4.0f, 0.0f),
-		glm::vec3(0.0f, -5.0f, 0.0f)
+
+//Pitch
+		glm::vec3(1.0f, 14.0f, 0.0f),  
+        glm::vec3(1.0f, 13.0f, 0.0f), 
+        glm::vec3(1.0f, 12.0f, 0.0f),
+        glm::vec3(1.0f, 11.0f, 0.0f),		
+		glm::vec3(1.0f, 10.0f, 0.0f),  
+        glm::vec3(1.0f, 9.0f, 0.0f), 
+        glm::vec3(1.0f, 8.0f, 0.0f),
+        glm::vec3(1.0f, 7.0f, 0.0f),
+		glm::vec3(1.0f, 6.0f, 0.0f),
+        glm::vec3(1.0f, 5.0f, 0.0f), 
+        glm::vec3(1.0f, 4.0f, 0.0f), 
+        glm::vec3(1.0f, 3.0f, 0.0f),  
+        glm::vec3(1.0f, 2.0f, 0.0f),  
+        glm::vec3(1.0f, 1.0f, 0.0f),  
+        glm::vec3(1.0f, 0.0f, 0.0f),
+		glm::vec3(2.0f, 14.0f, 0.0f),  
+        glm::vec3(2.0f, 13.0f, 0.0f), 
+        glm::vec3(2.0f, 12.0f, 0.0f),
+        glm::vec3(2.0f, 11.0f, 0.0f),
+		glm::vec3(2.0f, 10.0f, 0.0f),  
+        glm::vec3(2.0f, 9.0f, 0.0f), 
+        glm::vec3(2.0f, 8.0f, 0.0f),
+        glm::vec3(2.0f, 7.0f, 0.0f),
+		glm::vec3(2.0f, 6.0f, 0.0f),
+        glm::vec3(2.0f, 5.0f, 0.0f), 
+        glm::vec3(2.0f, 4.0f, 0.0f), 
+        glm::vec3(2.0f, 3.0f, 0.0f),  
+        glm::vec3(2.0f, 2.0f, 0.0f),  
+        glm::vec3(2.0f, 1.0f, 0.0f),  
+        glm::vec3(2.0f, 0.0f, 0.0f), 
+		glm::vec3(3.0f, 14.0f, 0.0f),  
+        glm::vec3(3.0f, 13.0f, 0.0f), 
+        glm::vec3(3.0f, 12.0f, 0.0f),
+        glm::vec3(3.0f, 11.0f, 0.0f),		
+		glm::vec3(3.0f, 10.0f, 0.0f),  
+        glm::vec3(3.0f, 9.0f, 0.0f), 
+        glm::vec3(3.0f, 8.0f, 0.0f),
+        glm::vec3(3.0f, 7.0f, 0.0f),
+		glm::vec3(3.0f, 6.0f, 0.0f),
+        glm::vec3(3.0f, 5.0f, 0.0f), 
+        glm::vec3(3.0f, 4.0f, 0.0f), 
+        glm::vec3(3.0f, 3.0f, 0.0f),  
+        glm::vec3(3.0f, 2.0f, 0.0f),  
+        glm::vec3(3.0f, 1.0f, 0.0f),  
+        glm::vec3(3.0f, 0.0f, 0.0f),
+		glm::vec3(4.0f, 14.0f, 0.0f),  
+        glm::vec3(4.0f, 13.0f, 0.0f), 
+        glm::vec3(4.0f, 12.0f, 0.0f),
+        glm::vec3(4.0f, 11.0f, 0.0f),
+		glm::vec3(4.0f, 10.0f, 0.0f),  
+        glm::vec3(4.0f, 9.0f, 0.0f), 
+        glm::vec3(4.0f, 8.0f, 0.0f),
+        glm::vec3(4.0f, 7.0f, 0.0f),
+		glm::vec3(4.0f, 6.0f, 0.0f),
+        glm::vec3(4.0f, 5.0f, 0.0f), 
+        glm::vec3(4.0f, 4.0f, 0.0f), 
+        glm::vec3(4.0f, 3.0f, 0.0f),  
+        glm::vec3(4.0f, 2.0f, 0.0f),  
+        glm::vec3(4.0f, 1.0f, 0.0f),  
+        glm::vec3(4.0f, 0.0f, 0.0f), 
+		glm::vec3(5.0f, 14.0f, 0.0f),  
+        glm::vec3(5.0f, 13.0f, 0.0f), 
+        glm::vec3(5.0f, 12.0f, 0.0f),
+        glm::vec3(5.0f, 11.0f, 0.0f),		
+		glm::vec3(5.0f, 10.0f, 0.0f),  
+        glm::vec3(5.0f, 9.0f, 0.0f), 
+        glm::vec3(5.0f, 8.0f, 0.0f),
+        glm::vec3(5.0f, 7.0f, 0.0f),
+		glm::vec3(5.0f, 6.0f, 0.0f),
+        glm::vec3(5.0f, 5.0f, 0.0f), 
+        glm::vec3(5.0f, 4.0f, 0.0f), 
+        glm::vec3(5.0f, 3.0f, 0.0f),  
+        glm::vec3(5.0f, 2.0f, 0.0f),  
+        glm::vec3(5.0f, 1.0f, 0.0f),  
+        glm::vec3(5.0f, 0.0f, 0.0f),
+		glm::vec3(6.0f, 14.0f, 0.0f),  
+        glm::vec3(6.0f, 13.0f, 0.0f), 
+        glm::vec3(6.0f, 12.0f, 0.0f),
+        glm::vec3(6.0f, 11.0f, 0.0f),
+		glm::vec3(6.0f, 10.0f, 0.0f),  
+        glm::vec3(6.0f, 9.0f, 0.0f), 
+        glm::vec3(6.0f, 8.0f, 0.0f),
+        glm::vec3(6.0f, 7.0f, 0.0f),
+		glm::vec3(6.0f, 6.0f, 0.0f),
+        glm::vec3(6.0f, 5.0f, 0.0f), 
+        glm::vec3(6.0f, 4.0f, 0.0f), 
+        glm::vec3(6.0f, 3.0f, 0.0f),  
+        glm::vec3(6.0f, 2.0f, 0.0f),  
+        glm::vec3(6.0f, 1.0f, 0.0f),  
+        glm::vec3(6.0f, 0.0f, 0.0f), 
+		glm::vec3(7.0f, 14.0f, 0.0f),  
+        glm::vec3(7.0f, 13.0f, 0.0f), 
+        glm::vec3(7.0f, 12.0f, 0.0f),
+        glm::vec3(7.0f, 11.0f, 0.0f),		
+		glm::vec3(7.0f, 10.0f, 0.0f),  
+        glm::vec3(7.0f, 9.0f, 0.0f), 
+        glm::vec3(7.0f, 8.0f, 0.0f),
+        glm::vec3(7.0f, 7.0f, 0.0f),
+		glm::vec3(7.0f, 6.0f, 0.0f),
+        glm::vec3(7.0f, 5.0f, 0.0f), 
+        glm::vec3(7.0f, 4.0f, 0.0f), 
+        glm::vec3(7.0f, 3.0f, 0.0f),  
+        glm::vec3(7.0f, 2.0f, 0.0f),  
+        glm::vec3(7.0f, 1.0f, 0.0f),  
+        glm::vec3(7.0f, 0.0f, 0.0f),
+
+// Player
+		glm::vec3(4.0f, 5.0f, 1.0f),
+
+//Stadium
+
+//Long Side Left
+
+		glm::vec3(-1.0f, 16.0f, 0.0f),  
+        glm::vec3(-1.0f, 15.0f, 0.0f), 
+		glm::vec3(-1.0f, 14.0f, 0.0f),  
+        glm::vec3(-1.0f, 13.0f, 0.0f), 
+        glm::vec3(-1.0f, 12.0f, 0.0f),
+        glm::vec3(-1.0f, 11.0f, 0.0f),		
+		glm::vec3(-1.0f, 10.0f, 0.0f),  
+        glm::vec3(-1.0f, 9.0f, 0.0f), 
+        glm::vec3(-1.0f, 8.0f, 0.0f),
+        glm::vec3(-1.0f, 7.0f, 0.0f),
+		glm::vec3(-1.0f, 6.0f, 0.0f),
+        glm::vec3(-1.0f, 5.0f, 0.0f), 
+        glm::vec3(-1.0f, 4.0f, 0.0f), 
+        glm::vec3(-1.0f, 3.0f, 0.0f),  
+        glm::vec3(-1.0f, 2.0f, 0.0f),  
+        glm::vec3(-1.0f, 1.0f, 0.0f),  
+        glm::vec3(-1.0f, 0.0f, 0.0f),
+        glm::vec3(-1.0f, -1.0f, 0.0f),  
+        glm::vec3(-1.0f, -2.0f, 0.0f),
+
+//Long Side Right
+
+		glm::vec3(9.0f, 16.0f, 0.0f),  
+        glm::vec3(9.0f, 15.0f, 0.0f), 
+		glm::vec3(9.0f, 14.0f, 0.0f),  
+        glm::vec3(9.0f, 13.0f, 0.0f), 
+        glm::vec3(9.0f, 12.0f, 0.0f),
+        glm::vec3(9.0f, 11.0f, 0.0f),		
+		glm::vec3(9.0f, 10.0f, 0.0f),  
+        glm::vec3(9.0f, 9.0f, 0.0f), 
+        glm::vec3(9.0f, 8.0f, 0.0f),
+        glm::vec3(9.0f, 7.0f, 0.0f),
+		glm::vec3(9.0f, 6.0f, 0.0f),
+        glm::vec3(9.0f, 5.0f, 0.0f), 
+        glm::vec3(9.0f, 4.0f, 0.0f), 
+        glm::vec3(9.0f, 3.0f, 0.0f),  
+        glm::vec3(9.0f, 2.0f, 0.0f),  
+        glm::vec3(9.0f, 1.0f, 0.0f),  
+        glm::vec3(9.0f, 0.0f, 0.0f),
+        glm::vec3(9.0f, -1.0f, 0.0f),  
+        glm::vec3(9.0f, -2.0f, 0.0f),
+
+// Short Side Bottom
+
+		glm::vec3(-1.0f, -2.0f, 0.0f),		
+		glm::vec3(0.0f, -2.0f, 0.0f),  
+        glm::vec3(1.0f, -2.0f, 0.0f), 
+        glm::vec3(2.0f, -2.0f, 0.0f),
+        glm::vec3(3.0f, -2.0f, 0.0f),
+		glm::vec3(4.0f, -2.0f, 0.0f),
+        glm::vec3(5.0f, -2.0f, 0.0f), 
+        glm::vec3(6.0f, -2.0f, 0.0f), 
+        glm::vec3(7.0f, -2.0f, 0.0f),  
+        glm::vec3(8.0f, -2.0f, 0.0f),  
+        glm::vec3(9.0f, -2.0f, 0.0f),  
+        glm::vec3(10.0f, -2.0f, 0.0f),
+
+// Short Side Top
+
+		glm::vec3(-1.0f, 16.0f, 0.0f),		
+		glm::vec3(0.0f, 16.0f, 0.0f),  
+        glm::vec3(1.0f, 16.0f, 0.0f), 
+        glm::vec3(2.0f, 16.0f, 0.0f),
+        glm::vec3(3.0f, 16.0f, 0.0f),
+		glm::vec3(4.0f, 16.0f, 0.0f),
+        glm::vec3(5.0f, 16.0f, 0.0f), 
+        glm::vec3(6.0f, 16.0f, 0.0f), 
+        glm::vec3(7.0f, 16.0f, 0.0f),  
+        glm::vec3(8.0f, 16.0f, 0.0f),  
+        glm::vec3(9.0f, 16.0f, 0.0f),  
+        glm::vec3(10.0f, 16.0f, 0.0f),
+
+
+
     };
 
     GLuint VBO, VAO;
@@ -178,7 +356,7 @@ int main()
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     // Load, create texture and generate mipmaps
-    image = SOIL_load_image("container.jpg", &width, &height, 0, SOIL_LOAD_RGB); 
+    image = SOIL_load_image("square.jpg", &width, &height, 0, SOIL_LOAD_RGB); 
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
     glGenerateMipmap(GL_TEXTURE_2D);
     SOIL_free_image_data(image);
@@ -225,12 +403,12 @@ int main()
         glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(projection));
         
         glBindVertexArray(VAO);
-        for(GLuint i = 0; i < 10; i++)
+        for(GLuint i = 0; i < 166; i++)
         {
             // Calculate the model matrix for each object and pass it to shader before drawing
             glm::mat4 model;
             model = glm::translate(model, cubePositions[i]);
-            GLfloat angle = 20.0f * i; 
+            GLfloat angle = 0.0f * i; 
             model = glm::rotate(model, angle, glm::vec3(1.0f, 0.3f, 0.5f));
             glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 

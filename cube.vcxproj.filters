@@ -59,5 +59,8 @@
     <Image Include="..\..\..\..\..\Downloads\grass.jpg">
       <Filter>images</Filter>
     </Image>
+    <Image Include="images\square.jpg">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
 </Project>

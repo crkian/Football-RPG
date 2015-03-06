@@ -85,6 +85,7 @@
   <ItemGroup>
     <Image Include="..\..\..\..\..\Downloads\grass.jpg" />
     <Image Include="container.jpg" />
+    <Image Include="images\square.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="cube.rc" />
