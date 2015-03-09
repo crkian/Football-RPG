@@ -38,7 +38,7 @@ private:
 	void Quit();
 
 public:
-	void PushState(Gamestate* state);
+	void PushState(GameState* state);
 	void PopState();
 	void setQuit();
 

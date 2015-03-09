@@ -1,5 +1,5 @@
 #include "Game.h"
-#include "GameplayState.h"
+#include "GameState.h"
 
 #include <iostream>
 #include <time.h>

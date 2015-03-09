@@ -1,5 +1,5 @@
-#ifndef GAMEPLAY_STATE.H
-#define GAMEPLAY_STATE.H
+#ifndef GAME_STATE.H
+#define GAME_STATE.H
 
 #include "Game.h"
 

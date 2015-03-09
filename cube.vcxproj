@@ -76,7 +76,7 @@
   <ItemGroup>
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Game.h" />
-    <ClInclude Include="GameplayState.h" />
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="ResourceManager.h" />
