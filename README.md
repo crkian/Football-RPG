@@ -3,7 +3,9 @@ Uni Project
 
 
 Unfinished project but it was starting to make progress, the layout was being altered and made easier for using menus and adding an end game
-the use of lots of matrices for the cubes wasalso going to be altered. The game was going tobe mixedwith my Monkey one tocreate 3d walls
+the use of lots of matrices for the cubes wasalso going to be altered. The game was going tobe mixedwith my Monkey one tocreate 3d walls.
+
+The game was created using visual studio and includes all files from the studio project
 
 the project requires the following libraries 
 
